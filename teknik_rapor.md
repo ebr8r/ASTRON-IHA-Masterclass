@@ -125,7 +125,6 @@ Motor sayısı arttıkça taşıma kapasitesi (itki) artar ancak batarya tüketi
 - **Araç Modeline Sensör Ekleme (SDF Yapısı):** Sabit kanatlı İHA modellerinin (`advanced_plane` vb.) `model.sdf` dosyasına `<link>`, `<sensor>` ve `<joint>` blokları eklenerek araca ön veya alt kamera/LiDAR sensörleri entegre edilebilir. Üretilen görüntü verisi Gazebo arayüzündeki *Image Display* eklentisi veya ROS 2 köprüsü üzerinden OpenCV ile işlenebilir.
 - **Başlangıç GPS Koordinatları ve Yönelim:** Gerçek saha uçuşu öncesinde simülasyonu ilgili uçuş alanına taşımak için terminal üzerinden `PX4_HOME_LAT`, `PX4_HOME_LON` ve `PX4_HOME_ALT` ortam değişkenleri tanımlanır; aracın pist üzerindeki başlangıç açısı ise modelin `pose` parametresi üzerinden ayarlanır.
 ### KISA YOLLAR-Hızlı Başvuru Rehberi: Temel Terminal Komutları ve Model Dosya Yolları
-cat << 'EOF' >> ~/astron-fixed-wing-mission/teknik_rapor.md
 
 | İşlem | Komut / Dosya Yolu | Ne İşe Yarar? |
 | :--- | :--- | :--- |
@@ -142,4 +141,3 @@ EOF
 - **Asenkron Mimari (`asyncio`) ve Bağlantı:** MAVSDK, farklı frekanslarda (10 Hz – 20 Hz) veri üreten sensörleri bloklamadan dinleyebilmek için Python `asyncio` altyapısını kullanır. Simülasyon ortamında araç bağlantısı yerel UDP portu (`udp://:14540`), gerçek telemetri donanımında ise seri port (`/dev/ttyUSB0`) üzerinden `drone.connect()` ile sağlanır.
 - **Telemetri ve Durum İzleme:** `drone.telemetry` modülü üzerinden uçuş öncesi sağlık kontrolleri (*Health Check*), GPS konumu (*Position*), yönelim açıları (*Attitude* — Roll/Pitch/Yaw), hız ve uçuş modu verileri gerçek zamanlı çekilir; hedef noktalara varış kontrolü GPS mesafe hesaplamalarıyla denetlenir.
 - **Temel Otonom Uçuş Komutları:** Uçuşa hazırlık onayının ardından motor yetkilendirme (`drone.action.arm()`), hedef irtifa belirleme (`set_takeoff_altitude()`), kalkış (`takeoff()`), bekleme (*Hold*) ve iniş (`land()`) komutları asenkron döngülerle yürütülür.
-EOF
