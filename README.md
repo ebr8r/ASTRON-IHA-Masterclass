@@ -1,7 +1,6 @@
 # ASTRON İHA Masterclass — Sabit Kanatlı İHA Otonom Görev ve Telemetri Uygulaması
 
 
-
 Bu depo; **PX4 SITL**, **Gazebo** ve **QGroundControl (QGC)** simülasyon ortamında sabit kanatlı bir İHA'nın (Fixed-Wing / `gz_rc_cessna`) kalkış (**Takeoff**), ara nokta takibi (**Waypoint**) ve süzülüş inişi (**Landing Pattern**) görevlerini **MAVSDK-Python** kullanarak otonom olarak gerçekleştiren kaynak kodları, teknik dokümantasyonu ve uçuş kaydını içerir.
 
 ---
