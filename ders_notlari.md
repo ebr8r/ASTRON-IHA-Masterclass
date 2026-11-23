@@ -29,7 +29,7 @@ PX4 tek başına uçağın dengesini ve temel uçuş kontrolünü yapar; ancak g
 
 Bu köprü sayesinde PX4'ün içindeki sensör ve durum verileri ROS 2 tarafında standart Topic'ler (yayın kanalları) olarak görünür; ROS 2'nin ürettiği hız veya konum komutları da aynı köprüden geçerek PX4'e iletilir.
 
-## 5. İHA Masterclass Eğitim Serisi – Öne Çıkan Notlar (1–16. Bölümler)
+## İHA Masterclass Eğitim Serisi – Öne Çıkan Notlar (1–16. Bölümler)
 * **Avyonik ve Sistem Mimarisi:** Bir İHA'nın sadece mekanik ve motordan ibaret olmadığı; sensörler, uçuş kontrol kartı (otopilot), yer istasyonu ve görev bilgisayarının bir bütün olarak haberleştiği kavrandı.
 * **Simülasyon Ortamının Önemi:** Gerçek uçuş testlerinden önce PX4 SITL ve Gazebo ortamında yapılan testlerin hem donanım maliyeti hem de uçuş güvenliği (kırım riskini sıfırlama) açısından kritik olduğu görüldü.
 * **Haberleşme ve Otonom Kontrol:** Yer kontrol istasyonu ile İHA arasındaki MAVLink veri akışı, uçuş modları (Takeoff, Mission, RTL/Land) ve yazılım üzerinden otonom görev tetikleme mantığı pekiştirildi.
