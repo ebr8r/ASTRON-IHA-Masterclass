@@ -1,5 +1,9 @@
 import asyncio
-from mavsdk_grpc import System
+
+try:
+    from mavsdk import System
+except ImportError:
+    from mavsdk_grpc import System
 
 
 async def monitor_telemetry(drone):
@@ -53,8 +57,8 @@ async def run():
             break
 
     print("[3/5] QGroundControl üzerinden yüklenen mission kontrol ediliyor...")
-    print("[OK] Gorev hazir.")
-    total_items = 3
+    mission_plan = await drone.mission.download_mission()
+    total_items = len(mission_plan.mission_items)
     if total_items == 0:
         print("[HATA] Yüklü mission bulunamadı! Önce QGroundControl'den 'Upload' yapın.")
         return
