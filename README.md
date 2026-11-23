@@ -4,17 +4,17 @@ Bu depo; **PX4 SITL**, **Gazebo** ve **QGroundControl (QGC)** simülasyon ortam�
 
 ---
 
-## 🎥 Simülasyon Uçuş ve Canlı Telemetri Kaydı
+## Simülasyon Uçuş ve Canlı Telemetri Kaydı
 
 Uçağın otomatik **ARM** edilmesini, pistten kalkışını, belirlenen ara noktalardan geçişini, piste süzülerek inişini ve terminaldeki anlık telemetri akışını içeren tam uçuş kaydı:
 
 https://github.com/ebr8r/ASTRON-IHA-Masterclass/raw/main/ucus_kaydi.mp4
 
-* ▶️ **Alternatif Bağlantı (Google Drive):** [Simülasyon Ekran Kaydını İzle](https://drive.google.com/file/d/10vMWy3ts2Qml6MocGK-i3M0e6rc8aPPz/view?usp=drive_link)
+* **Alternatif Bağlantı (Google Drive):** [Simülasyon Ekran Kaydını İzle](https://drive.google.com/file/d/10vMWy3ts2Qml6MocGK-i3M0e6rc8aPPz/view?usp=drive_link)
 
 ---
 
-## 📁 Depo İçeriği ve Dosya Açıklamaları
+## Depo İçeriği ve Dosya Açıklamaları
 
 | Dosya Adı | Açıklama |
 | :--- | :--- |
@@ -25,7 +25,7 @@ https://github.com/ebr8r/ASTRON-IHA-Masterclass/raw/main/ucus_kaydi.mp4
 
 ---
 
-## ⚙️ Gereksinimler ve Kurulum
+## Gereksinimler ve Kurulum
 
 Projeyi çalıştırmak için aşağıdaki ortam ve paketlerin kurulu olması gerekir:
 
@@ -37,7 +37,7 @@ Projeyi çalıştırmak için aşağıdaki ortam ve paketlerin kurulu olması ge
 
 ---
 
-## 🚀 Adım Adım Kullanım Kılavuzu
+## Adım Adım Kullanım Kılavuzu
 
 Sistemi çalıştırmak ve otonom görevi yürütmek için aşağıdaki adımları sırasıyla uygulayın:
 
