@@ -36,6 +36,7 @@ Projeyi çalıştırmak için aşağıdaki ortam ve paketlerin kurulu olması ge
 
 ```bash
 pip3 install mavsdk
+pip3 install mavsdk
 
 ```bash
 pip3 install mavsdk
