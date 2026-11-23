@@ -69,4 +69,4 @@ Yeni bir terminal sekmesinde proje klasörüne gidin ve Python betiğini çalı�
 pip3 install mavsdk
 
 ```bash
-pip3 install mavsdk
+
