@@ -9,7 +9,14 @@ Bu depo; **PX4 SITL**, **Gazebo** ve **QGroundControl (QGC)** simülasyon ortam�
 
 Uçağın otomatik **ARM** edilmesini, pistten kalkışını, belirlenen ara noktalardan geçişini, piste süzülerek inişini ve terminaldeki anlık telemetri akışını içeren tam uçuş kaydı:
 
-https://github.com/ebr8r/ASTRON-IHA-Masterclass/raw/main/ucus_kaydi.mp4
+
+https://github.com/user-attachments/assets/be182e40-48ae-4d47-81ae-27502f866f19
+
+
+
+https://github.com/user-attachments/assets/b43e9e82-3c60-461d-93db-6f874e53291b
+
+
 
 * **Alternatif Bağlantı (Google Drive):** [Simülasyon Ekran Kaydını İzle](https://drive.google.com/file/d/10vMWy3ts2Qml6MocGK-i3M0e6rc8aPPz/view?usp=drive_link)
 
