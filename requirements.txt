@@ -1,1 +1,1 @@
-mavsdk
+mavsdk==4.1.0
